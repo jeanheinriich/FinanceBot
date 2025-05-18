@@ -1,0 +1,8 @@
+streamlit
+pandas
+plotly
+python-dateutil
+dateparser
+google-generativeai==0.8.5
+python-dotenv
+matplotlib

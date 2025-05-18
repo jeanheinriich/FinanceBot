@@ -1,0 +1,48 @@
+# Ambientes Virtuais Python
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Arquivos de Bytecode e Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de IDE/Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sublime-workspace
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de Dependências (se você usa pip freeze > requirements.txt, não precisa ignorar a pasta de instalação)
+# Mas se tiver outras pastas de libs baixadas manualmente:
+# instance/
+# /local_libs/
+
+# Arquivos de Configuração Sensíveis
+.env  # MUITO IMPORTANTE para sua GOOGLE_API_KEY
+
+# Banco de Dados SQLite (OPCIONAL)
+# Se você NÃO quer versionar o banco de dados em si (apenas a estrutura via init_db):
+data/transactions.db
+# Se você QUER versionar o banco com alguns dados de exemplo, comente a linha acima.
+# Para um projeto pessoal, pode ser útil versionar, mas para projetos abertos, geralmente não.
+
+# Arquivos de log
+*.log
+logs/
+
+# Arquivos de build/distribuição
+build/
+dist/
+*.egg-info/
