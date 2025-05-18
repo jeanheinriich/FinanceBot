@@ -1,1 +1,0 @@
-clear_database_data.py
