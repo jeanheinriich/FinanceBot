@@ -23,31 +23,6 @@ O chatbot permite que você gerencie suas finanças usando linguagem natural par
     *   Interpreta comandos em linguagem natural.
     *   Gera relatórios financeiros detalhados com análises e dicas (quando solicitado).
 
-## Estrutura do Projeto
-
-finance-bot/
-├── ai/                   # Lógica de IA, incluindo ChatManager e interação com Gemini
-│   ├── __init__.py
-│   ├── llm_chat.py
-│   └── reports.py
-├── chatbot/              # Lógica específica do chatbot
-│   ├── __init__.py
-│   ├── handlers.py       # Orquestra a chamada ao ChatManager
-│   └── prompts.py        # Contém o System Prompt para o LLM
-├── chatbot_component/    # (Se você ainda tiver, para o componente HTML estático)
-│   └── chatbot_ui.html
-├── data/                 # Onde o banco de dados SQLite será armazenado
-│   └── transactions.db   # (Criado na primeira execução)
-├── dashboard/            # Script principal da interface Streamlit
-│   └── main.py
-├── utils/                # Utilitários (conexão com DB, manipulação de datas)
-│   ├── __init__.py
-│   ├── db.py
-│   └── date_utils.py
-├── .env.example          # Arquivo de exemplo para variáveis de ambiente (NÃO COLOQUE SUA CHAVE AQUI)
-├── .gitignore            # Arquivos e pastas a serem ignorados pelo Git
-├── requirements.txt      # Dependências Python do projeto
-└── README.md             # Este arquivo
 
 ## Configuração e Instalação
 
